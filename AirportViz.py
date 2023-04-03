@@ -10,6 +10,7 @@ import pandas as pd
 data = pd.read_excel("NorwayFlights.xlsx")
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # Layout
 app.layout = dbc.Container([
