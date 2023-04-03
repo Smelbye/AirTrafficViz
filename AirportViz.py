@@ -4,7 +4,6 @@ from dash import html
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 import plotly.express as px
-from jupyter_dash import JupyterDash
 import pandas as pd
 
 data = pd.read_excel("NorwayFlights.xlsx")
